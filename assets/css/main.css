@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700");
+body {
+  font-family: 'Roboto', sans-serif; }
+
+#homemenu, #quienesmenu, #historiamenu, #picadasmenu, #entrevistasmenu, #contactomenu {
+  display: block;
+  color: white;
+  font-size: 17px;
+  line-height: 2;
+  text-align: center; }
+
+a:link {
+  text-decoration: none; }
+
+.sidebar, #home, #quienes, #historia, #picadas, #entrevistas, #contacto {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0; }
+
+.ocultar {
+  display: none; }
+
+.sidebar {
+  background-color: #49CCC5; }
+
+h1 {
+  font-size: 30px; }
+
+#home .home-picadas {
+  height: 50vh;
+  width: 100%;
+  background-color: #F4BF44;
+  padding: 0;
+  margin: 0; }
+#home .home-historias {
+  height: 50vh;
+  width: 100%;
+  background-color: #FC526C;
+  padding: 0;
+  margin: 0; }
+#home .home-entrevistas {
+  height: 50vh;
+  width: 100%;
+  background-color: #212C32;
+  padding: 0;
+  margin: 0; }
+
+#quienes {
+  background-color: #FCFCFC; }
+
+#historia {
+  background-color: #FCFCFC; }
+
+#picadas {
+  background-color: #FCFCFC; }
+
+#entrevistas {
+  background-color: #FCFCFC; }
+
+#contacto {
+  background-color: #FCFCFC; }
+
+/*# sourceMappingURL=main.css.map */

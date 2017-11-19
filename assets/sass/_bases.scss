@@ -1,0 +1,61 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+#homemenu, #quienesmenu, #historiamenu, #picadasmenu, #entrevistasmenu, #contactomenu{
+    display: block;
+    color: white;
+    font-size: 17px;
+    line-height: 2;
+    text-align: center;
+}
+a:link{
+	text-decoration: none;
+}
+.sidebar, #home, #quienes, #historia, #picadas, #entrevistas, #contacto{
+	@include cienxciento;
+	@include cero;
+}
+.ocultar{
+	display: none;
+}
+.sidebar{
+	background-color: $colorsidebar;
+}
+h1{
+	font-size: 30px;
+}
+#home{
+	.home-picadas{
+		height: 50vh;
+		width:100%;
+		background-color: $colorpicadas;
+		@include cero;
+	}
+	.home-historias{
+		height: 50vh;
+		width:100%;
+		background-color: $colorhistorias;
+		@include cero;
+	}
+	.home-entrevistas{
+		height: 50vh;
+		width:100%;
+		background-color: $colorentrevistas;
+		@include cero;
+	}
+}
+#quienes{
+	background-color: $fondoprincipal;
+}
+#historia{
+	background-color: $fondoprincipal;
+}
+#picadas{
+	background-color: $fondoprincipal;
+}
+#entrevistas{
+	background-color: $fondoprincipal;
+}
+#contacto{
+	background-color: $fondoprincipal;
+}
