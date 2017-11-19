@@ -99,8 +99,8 @@ figure {
 }
 
 .titulo-index {
-    margin-left: 70px;
-    margin-top: 20px;
+    margin-left: 10%;
+    margin-top: 0px;
     color: white;
     font-size: 35px !important;
 }
@@ -1379,4 +1379,23 @@ nav {
 
 #fh5co-main {
     background-color: whitesmoke;
+}
+
+p.bajada-uno,
+p.bajada-dos {
+    font-family: 'Sanchez', serif;
+    color: whitesmoke;
+    margin-left: 10%;
+}
+
+p.bajada-uno {
+    margin-top: -30px;
+    margin-bottom: 2%;
+}
+
+p.bajada-dos {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 21px;
 }

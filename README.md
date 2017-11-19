@@ -1,2 +1,2 @@
-# picadasporsantiago
-Sitio Picadas por Santiago
+# picadas
+Sitio gráfico Picadas por Santiago
