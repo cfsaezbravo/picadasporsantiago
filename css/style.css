@@ -72,8 +72,11 @@ figure {
 }
 
 .historias-home {
-    background-color: #444;
+    background-image: url("../images/fotospicadas/index2-01.jpg");
     height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .burlete1 {
@@ -89,8 +92,11 @@ figure {
 }
 
 .entrevistas-home {
-    background-color: #efba41;
+    background-image: url("../images/fotospicadas/index2-02.jpg");
     height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 .box-index {
